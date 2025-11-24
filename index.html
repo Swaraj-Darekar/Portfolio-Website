@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swaraj Darekar - AI Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Top Avatar (appears after animation) -->
+        <div class="top-avatar" id="topAvatar">
+            <img src="images/main-avater.png" alt="Swaraj Darekar">
+        </div>
+
+        <div class="content-wrapper">
+            <!-- Initial View -->
+            <div class="initial-view" id="initialView">
+                <div class="greeting">Hey, I'm Swaraj Darekar 👋</div>
+                <h1>AI & Data Science Engineer</h1>
+                <div class="avatar">
+                    <img src="images/main-avater.png" alt="Swaraj Darekar">
+                </div>
+            </div>
+
+            <!-- Loading Section -->
+            <div class="loading-section" id="loadingSection">
+                <div class="loading-avatar">
+                    <div class="loading-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="loading-content">
+                    <p id="loadingText">Generating response...</p>
+                </div>
+            </div>
+
+            <!-- AI Response Section - NO AVATAR -->
+            <div class="section" id="aiResponseSection">
+                <div class="section-content">
+                    <h2 id="aiResponseTitle">Swaraj Darekar</h2>
+                    <div class="location" id="aiResponseSubtitle">AI & Data Science Engineer</div>
+                    <div id="aiResponseText" class="bio"></div>
+                </div>
+            </div>
+
+            <!-- Me Section -->
+            <div class="section" id="meSection">
+                <div class="section-avatar">
+                    <img src="images/avatar.png" alt="Swaraj Darekar">
+                </div>
+                <div class="section-content">
+                    <h2>Swaraj Maharudra Darekar</h2>
+                    <div class="location">Pune, Maharashtra</div>
+                    <p class="bio">
+                        I am a Software Engineer with a strong focus on Artificial Intelligence and Data Science. My passion lies in developing efficient, user-friendly applications and systems that positively impact users.
+                    </p>
+                    <div class="skills-tags">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">TensorFlow/Keras</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="section" id="projectsSection">
+                <div class="section-content">
+                    <h2>My Projects</h2>
+                    <div class="location">Building innovative solutions</div>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-type">WebApp</div>
+                            <div class="project-title">Smart Campus Management System</div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-type">WebApp</div>
+                            <div class="project-title">Responsive Website for MSCIT Coaching</div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-type">WebApp</div>
+                            <div class="project-title">RAG Based Teaching Assistant</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="section" id="skillsSection">
+                <div class="section-content">
+                    <h2>Skills & Expertise</h2>
+                    <div class="location">Technical proficiencies</div>
+                    
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <span class="category-icon">📚</span>
+                            <h3 class="category-title">Frontend</h3>
+                        </div>
+                        <div class="category-skills">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React.js</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <span class="category-icon">📚</span>
+                            <h3 class="category-title">Backend</h3>
+                        </div>
+                        <div class="category-skills">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Spring Boot</span>
+                            <span class="skill-tag">Flask</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <span class="category-icon">📚</span>
+                            <h3 class="category-title">AI/ML</h3>
+                        </div>
+                        <div class="category-skills">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">TensorFlow/Keras</span>
+                            <span class="skill-tag">CNNs</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <span class="category-icon">📚</span>
+                            <h3 class="category-title">Database</h3>
+                        </div>
+                        <div class="category-skills">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="section" id="contactSection">
+                <div class="section-content">
+                    <h2>Contact Information</h2>
+                    <div class="contact-username">@swarajmaharudradarekar</div>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <div class="contact-text">
+                                <a href="mailto:swarajdarekar3634@gmail.com">swarajdarekar3634@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div class="contact-text">+91 7020374328</div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">X(twitter)</a>
+                            <a href="#" class="social-link">GitHub</a>
+                        </div>
+                    </div>
+
+                    <p class="contact-message">
+                        You can find my contact information above! Feel free to reach out anytime; I'd be happy to connect and answer any questions you have. Is there something specific you'd like to discuss? 😊
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modern Search Bar -->
+        <div class="search-container" id="searchContainer">
+            <div class="search-bar">
+                <input type="text" placeholder="Ask me anything..." id="searchInput">
+                <button type="button" onclick="handleSearch()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Modern Navigation -->
+        <div class="nav-grid" id="navGrid">
+            <div class="nav-card" onclick="showSection('me')">
+                <div class="nav-card-icon">
+                    <img src="images/me-icon.png" alt="Me">
+                </div>
+                <div class="nav-card-title">Me</div>
+            </div>
+            <div class="nav-card" onclick="showSection('projects')">
+                <div class="nav-card-icon">
+                    <img src="images/project-icon.png" alt="Projects">
+                </div>
+                <div class="nav-card-title">Projects</div>
+            </div>
+            <div class="nav-card" onclick="showSection('skills')">
+                <div class="nav-card-icon">
+                    <img src="images/skill-icon.png" alt="Skills">
+                </div>
+                <div class="nav-card-title">Skills</div>
+            </div>
+            <div class="nav-card" onclick="showSection('contact')">
+                <div class="nav-card-icon">
+                    <img src="images/contact-icon.png" alt="Contact">
+                </div>
+                <div class="nav-card-title">Contact</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
